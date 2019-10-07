@@ -31,6 +31,7 @@ class UserRecyclerAdapter(private val context: Activity, private val receiver: T
                     val toast = Toast.makeText(context ,"private message to: "  +holder.itemView.userItem.text, Toast.LENGTH_SHORT)
                     toast.setGravity(Gravity.CENTER, 0 , 0)
                     toast.show()
+
                     context.userListUI.visibility = View.INVISIBLE
                     context.chatView.visibility = View.VISIBLE
                     ChatClientData.users.clear()

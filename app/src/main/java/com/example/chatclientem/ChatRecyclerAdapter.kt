@@ -10,7 +10,6 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.layout_chat_message.view.*
-import kotlinx.android.synthetic.main.layout_user.view.*
 
 /**
  * Adapter for chatview recycler with clicklistener on usernames and also changes the username color if the incoming message is private
@@ -46,15 +45,17 @@ class ChatRecyclerAdapter(private val context: Activity, private val receiver: T
 
     class ChatViewHolder(chatView: View): RecyclerView.ViewHolder(chatView) {
         private val username = chatView.username
-        private val message = chatView.message
+        private val message = chatView.userMessage
 
         fun bind(chatMessage: ChatMessage){
             username.text = chatMessage.name()
+            if (username.text == "Me")
+            {
+                
+            }
             message.text = chatMessage.toString()
             // if incoming chanmessages command is whisper change the username color
-            if (chatMessage.command() == Commands.Whisper){
-                username.setTextColor(Color.parseColor("#c79100"))
-            }
+
         }
     }
 

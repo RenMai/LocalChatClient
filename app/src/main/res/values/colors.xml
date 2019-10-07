@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ffc107</color>
-    <color name="colorPrimaryDark">#c79100</color>
-    <color name="colorAccent">#c66900</color>
-    <color name="colorSecondary">#ff9800</color>
-    <color name="colorSecondaryLight">#ffc947</color>
-    <color name="colorSecondaryDark">#c66900</color>
+    <color name="colorPrimary">#0022FF</color>
+    <color name="colorPrimaryDark">#0022FF</color>
+    <color name="colorAccent">#1100FF</color>
+    <color name="colorSecondary">#0022FF</color>
+    <color name="colorSecondaryLight">#0022FF</color>
+    <color name="colorSecondaryDark">#0022FF</color>
+    <color name="colorSendButtonColor">#ffffff</color>
 </resources>

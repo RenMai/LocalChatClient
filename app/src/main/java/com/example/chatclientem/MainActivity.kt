@@ -65,6 +65,7 @@ class MainActivity : AppCompatActivity() {
         sendButton.setOnClickListener {
             // sets the command type for ChatMessage based on if user have selected a specific user for private message
             // Makes sure user doesnt send empty messages
+
             if (chatText.length() > 0) {
                 val command = if (receiverText.text == "All") {
                     Commands.Say
