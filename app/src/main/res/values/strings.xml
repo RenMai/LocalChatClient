@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Useless chat client</string>
+    <string name="dialog_fire_missiles">fireee</string>
+    <string name="fire">FIIIRIIIINNGGG</string>
+    <string name="cancel">CANCEL</string>
+    <string name="signin">send</string>
+    <string name="joinChatButton">Join Chat</string>
+    <string name="enterUserName">Enter a username</string>
+    <string name="userListHead">Select a user</string>
+    <string name="selectALl">All</string>
+    <string name="receiverButton">All</string>
+    <string name="messageField">Type a message</string>
+    <string name="top">Top</string>
+    <string name="history">history</string>
+    <string name="quit">quit</string>
+    <string name="close">Close</string>
+</resources>
